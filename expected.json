@@ -1,0 +1,946 @@
+{
+ "cases": [
+  {
+   "fn": "volume",
+   "args": [
+    "100",
+    "10",
+    "12"
+   ],
+   "expect": "The area of 100 ft by 10 ft at 12 inches thick takes 37.04 cu yd of stone."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "37",
+    "1.4"
+   ],
+   "expect": "The 37 cu yd at 1.4 tons a cubic yard weighs 51.8 tons."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "52",
+    "20"
+   ],
+   "expect": "The 52 tons in loads of 20 tons takes 3 trucks, leaving 8 tons of room in the last one."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "52",
+    "42",
+    "3",
+    "150",
+    "1000"
+   ],
+   "expect": "The 52 tons at $42 and the 3 trucks at $150 delivery cost $2634.00, or $2.63 a square foot over the 1000."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "2939",
+    "762",
+    "64"
+   ],
+   "expect": "The area of 2939 ft by 762 ft at 64 inches thick takes 442373.93 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "2277",
+    "643",
+    "114"
+   ],
+   "expect": "The area of 2277 ft by 643 ft at 114 inches thick takes 515150.17 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "2898",
+    "121",
+    "86"
+   ],
+   "expect": "The area of 2898 ft by 121 ft at 86 inches thick takes 93075.89 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "1990",
+    "27",
+    "32"
+   ],
+   "expect": "The area of 1990 ft by 27 ft at 32 inches thick takes 5306.67 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "2394",
+    "747",
+    "65"
+   ],
+   "expect": "The area of 2394 ft by 747 ft at 65 inches thick takes 358767.5 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "1500",
+    "219",
+    "89"
+   ],
+   "expect": "The area of 1500 ft by 219 ft at 89 inches thick takes 90236.11 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "7630",
+    "110",
+    "56"
+   ],
+   "expect": "The area of 7630 ft by 110 ft at 56 inches thick takes 145064.2 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "470",
+    "424",
+    "15"
+   ],
+   "expect": "The area of 470 ft by 424 ft at 15 inches thick takes 9225.93 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "2505",
+    "377",
+    "60"
+   ],
+   "expect": "The area of 2505 ft by 377 ft at 60 inches thick takes 174886.11 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "2131",
+    "356",
+    "84"
+   ],
+   "expect": "The area of 2131 ft by 356 ft at 84 inches thick takes 196683.41 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "8185",
+    "279",
+    "54"
+   ],
+   "expect": "The area of 8185 ft by 279 ft at 54 inches thick takes 380602.5 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "1181",
+    "139",
+    "70"
+   ],
+   "expect": "The area of 1181 ft by 139 ft at 70 inches thick takes 35466.45 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "5673",
+    "249",
+    "3"
+   ],
+   "expect": "The area of 5673 ft by 249 ft at 3 inches thick takes 13079.42 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "4570",
+    "956",
+    "14"
+   ],
+   "expect": "The area of 4570 ft by 956 ft at 14 inches thick takes 188780.49 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "4318",
+    "503",
+    "114"
+   ],
+   "expect": "The area of 4318 ft by 503 ft at 114 inches thick takes 764206.04 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "5283",
+    "336",
+    "69"
+   ],
+   "expect": "The area of 5283 ft by 336 ft at 69 inches thick takes 378028 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "101",
+    "122",
+    "50"
+   ],
+   "expect": "The area of 101 ft by 122 ft at 50 inches thick takes 1901.54 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "4783",
+    "338",
+    "63"
+   ],
+   "expect": "The area of 4783 ft by 338 ft at 63 inches thick takes 314349.39 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "341",
+    "36",
+    "66"
+   ],
+   "expect": "The area of 341 ft by 36 ft at 66 inches thick takes 2500.67 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "9510",
+    "515",
+    "1"
+   ],
+   "expect": "The area of 9510 ft by 515 ft at 1 inches thick takes 15116.2 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "5257",
+    "600",
+    "118"
+   ],
+   "expect": "The area of 5257 ft by 600 ft at 118 inches thick takes 1148751.85 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "5783",
+    "23",
+    "61"
+   ],
+   "expect": "The area of 5783 ft by 23 ft at 61 inches thick takes 25041.82 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "6913",
+    "335",
+    "112"
+   ],
+   "expect": "The area of 6913 ft by 335 ft at 112 inches thick takes 800542.47 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "4898",
+    "956",
+    "81"
+   ],
+   "expect": "The area of 4898 ft by 956 ft at 81 inches thick takes 1170622 cu yd of stone."
+  },
+  {
+   "fn": "volume",
+   "args": [
+    "343",
+    "537",
+    "40"
+   ],
+   "expect": "The area of 343 ft by 537 ft at 40 inches thick takes 22739.63 cu yd of stone."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "13467318",
+    "2.78"
+   ],
+   "expect": "The 13467318 cu yd at 2.78 tons a cubic yard weighs 37439144.04 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "60897472",
+    "1.43"
+   ],
+   "expect": "The 60897472 cu yd at 1.43 tons a cubic yard weighs 87083384.96 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "97754332",
+    "5.77"
+   ],
+   "expect": "The 97754332 cu yd at 5.77 tons a cubic yard weighs 564042495.64 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "23394263",
+    "4.03"
+   ],
+   "expect": "The 23394263 cu yd at 4.03 tons a cubic yard weighs 94278879.89 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "97913483",
+    "8.1"
+   ],
+   "expect": "The 97913483 cu yd at 8.1 tons a cubic yard weighs 793099212.3 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "72036272",
+    "6.59"
+   ],
+   "expect": "The 72036272 cu yd at 6.59 tons a cubic yard weighs 474719032.48 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "40594737",
+    "8.83"
+   ],
+   "expect": "The 40594737 cu yd at 8.83 tons a cubic yard weighs 358451527.71 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "25012885",
+    "5.14"
+   ],
+   "expect": "The 25012885 cu yd at 5.14 tons a cubic yard weighs 128566228.9 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "77067112",
+    "8.76"
+   ],
+   "expect": "The 77067112 cu yd at 8.76 tons a cubic yard weighs 675107901.12 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "89962202",
+    "5.5"
+   ],
+   "expect": "The 89962202 cu yd at 5.5 tons a cubic yard weighs 494792111 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "72710753",
+    "2.09"
+   ],
+   "expect": "The 72710753 cu yd at 2.09 tons a cubic yard weighs 151965473.77 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "87222861",
+    "0.46"
+   ],
+   "expect": "The 87222861 cu yd at 0.46 tons a cubic yard weighs 40122516.06 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "78260783",
+    "7.4"
+   ],
+   "expect": "The 78260783 cu yd at 7.4 tons a cubic yard weighs 579129794.2 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "46343149",
+    "8.84"
+   ],
+   "expect": "The 46343149 cu yd at 8.84 tons a cubic yard weighs 409673437.16 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "91268640",
+    "0.22"
+   ],
+   "expect": "The 91268640 cu yd at 0.22 tons a cubic yard weighs 20079100.8 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "79119673",
+    "2.99"
+   ],
+   "expect": "The 79119673 cu yd at 2.99 tons a cubic yard weighs 236567822.27 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "69338485",
+    "3.32"
+   ],
+   "expect": "The 69338485 cu yd at 3.32 tons a cubic yard weighs 230203770.2 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "83130372",
+    "0.2"
+   ],
+   "expect": "The 83130372 cu yd at 0.2 tons a cubic yard weighs 16626074.4 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "27458005",
+    "1.06"
+   ],
+   "expect": "The 27458005 cu yd at 1.06 tons a cubic yard weighs 29105485.3 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "53061489",
+    "3.31"
+   ],
+   "expect": "The 53061489 cu yd at 3.31 tons a cubic yard weighs 175633528.59 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "54758194",
+    "3.83"
+   ],
+   "expect": "The 54758194 cu yd at 3.83 tons a cubic yard weighs 209723883.02 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "38002945",
+    "1.73"
+   ],
+   "expect": "The 38002945 cu yd at 1.73 tons a cubic yard weighs 65745094.85 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "38499788",
+    "9.97"
+   ],
+   "expect": "The 38499788 cu yd at 9.97 tons a cubic yard weighs 383842886.36 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "63170846",
+    "5.15"
+   ],
+   "expect": "The 63170846 cu yd at 5.15 tons a cubic yard weighs 325329856.9 tons."
+  },
+  {
+   "fn": "tons",
+   "args": [
+    "33699257",
+    "0.65"
+   ],
+   "expect": "The 33699257 cu yd at 0.65 tons a cubic yard weighs 21904517.05 tons."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "43062196",
+    "999"
+   ],
+   "expect": "The 43062196 tons in loads of 999 tons takes 43106 trucks, leaving 698 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "93657101",
+    "547"
+   ],
+   "expect": "The 93657101 tons in loads of 547 tons takes 171220 trucks, leaving 239 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "89350430",
+    "832"
+   ],
+   "expect": "The 89350430 tons in loads of 832 tons takes 107393 trucks, leaving 546 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "83197617",
+    "727"
+   ],
+   "expect": "The 83197617 tons in loads of 727 tons takes 114440 trucks, leaving 263 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "13435169",
+    "61"
+   ],
+   "expect": "The 13435169 tons in loads of 61 tons takes 220249 trucks, leaving 20 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "23375087",
+    "470"
+   ],
+   "expect": "The 23375087 tons in loads of 470 tons takes 49735 trucks, leaving 363 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "59573711",
+    "906"
+   ],
+   "expect": "The 59573711 tons in loads of 906 tons takes 65755 trucks, leaving 319 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "82439101",
+    "411"
+   ],
+   "expect": "The 82439101 tons in loads of 411 tons takes 200582 trucks, leaving 101 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "65357208",
+    "695"
+   ],
+   "expect": "The 65357208 tons in loads of 695 tons takes 94040 trucks, leaving 592 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "89280322",
+    "942"
+   ],
+   "expect": "The 89280322 tons in loads of 942 tons takes 94778 trucks, leaving 554 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "61210529",
+    "614"
+   ],
+   "expect": "The 61210529 tons in loads of 614 tons takes 99692 trucks, leaving 359 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "62383942",
+    "763"
+   ],
+   "expect": "The 62383942 tons in loads of 763 tons takes 81762 trucks, leaving 464 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "60544551",
+    "265"
+   ],
+   "expect": "The 60544551 tons in loads of 265 tons takes 228471 trucks, leaving 264 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "75401543",
+    "715"
+   ],
+   "expect": "The 75401543 tons in loads of 715 tons takes 105457 trucks, leaving 212 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "31638049",
+    "375"
+   ],
+   "expect": "The 31638049 tons in loads of 375 tons takes 84369 trucks, leaving 326 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "26797733",
+    "821"
+   ],
+   "expect": "The 26797733 tons in loads of 821 tons takes 32641 trucks, leaving 528 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "11694313",
+    "707"
+   ],
+   "expect": "The 11694313 tons in loads of 707 tons takes 16541 trucks, leaving 174 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "37980206",
+    "242"
+   ],
+   "expect": "The 37980206 tons in loads of 242 tons takes 156943 trucks, leaving 0 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "98006695",
+    "120"
+   ],
+   "expect": "The 98006695 tons in loads of 120 tons takes 816723 trucks, leaving 65 tons of room in the last one."
+  },
+  {
+   "fn": "trucks",
+   "args": [
+    "80109475",
+    "987"
+   ],
+   "expect": "The 80109475 tons in loads of 987 tons takes 81165 trucks, leaving 380 tons of room in the last one."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "2188753",
+    "5248.43",
+    "391909",
+    "6658.29",
+    "33194229"
+   ],
+   "expect": "The 2188753 tons at $5248.43 and the 391909 trucks at $6658.29 delivery cost $14096960683.40, or $424.68 a square foot over the 33194229."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "59534143",
+    "2075.16",
+    "35717",
+    "3940.69",
+    "96910289"
+   ],
+   "expect": "The 59534143 tons at $2075.16 and the 35717 trucks at $3940.69 delivery cost $123683621812.61, or $1276.27 a square foot over the 96910289."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "99033589",
+    "1954.8",
+    "447820",
+    "418.7",
+    "75058273"
+   ],
+   "expect": "The 99033589 tons at $1954.8 and the 447820 trucks at $418.7 delivery cost $193778362011.20, or $2581.71 a square foot over the 75058273."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "98596149",
+    "2229.58",
+    "840710",
+    "7406.17",
+    "48118628"
+   ],
+   "expect": "The 98596149 tons at $2229.58 and the 840710 trucks at $7406.17 delivery cost $226054443068.12, or $4697.86 a square foot over the 48118628."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "79781479",
+    "2606.47",
+    "36939",
+    "3882.11",
+    "97862462"
+   ],
+   "expect": "The 79781479 tons at $2606.47 and the 36939 trucks at $3882.11 delivery cost $208091432830.42, or $2126.37 a square foot over the 97862462."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "20144753",
+    "3532.11",
+    "754913",
+    "1184.75",
+    "85452378"
+   ],
+   "expect": "The 20144753 tons at $3532.11 and the 754913 trucks at $1184.75 delivery cost $72047866695.58, or $843.13 a square foot over the 85452378."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "8809028",
+    "3547.79",
+    "478071",
+    "7196.83",
+    "36625751"
+   ],
+   "expect": "The 8809028 tons at $3547.79 and the 478071 trucks at $7196.83 delivery cost $34693177163.05, or $947.23 a square foot over the 36625751."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "58515409",
+    "4106.98",
+    "659847",
+    "3673.5",
+    "69886592"
+   ],
+   "expect": "The 58515409 tons at $4106.98 and the 659847 trucks at $3673.5 delivery cost $242745562409.32, or $3473.42 a square foot over the 69886592."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "27901185",
+    "4052.46",
+    "23679",
+    "9084.47",
+    "46564208"
+   ],
+   "expect": "The 27901185 tons at $4052.46 and the 23679 trucks at $9084.47 delivery cost $113283547330.23, or $2432.85 a square foot over the 46564208."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "40214502",
+    "8839.42",
+    "969486",
+    "6783.02",
+    "26427465"
+   ],
+   "expect": "The 40214502 tons at $8839.42 and the 969486 trucks at $6783.02 delivery cost $362048916196.56, or $13699.72 a square foot over the 26427465."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "14784909",
+    "4803.86",
+    "805433",
+    "5113.52",
+    "28316604"
+   ],
+   "expect": "The 14784909 tons at $4803.86 and the 805433 trucks at $5113.52 delivery cost $75143230702.90, or $2653.68 a square foot over the 28316604."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "10520071",
+    "3539.7",
+    "93785",
+    "1595.22",
+    "72462417"
+   ],
+   "expect": "The 10520071 tons at $3539.7 and the 93785 trucks at $1595.22 delivery cost $37387503026.40, or $515.96 a square foot over the 72462417."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "78714684",
+    "1150.83",
+    "165206",
+    "5065.96",
+    "41288287"
+   ],
+   "expect": "The 78714684 tons at $1150.83 and the 165206 trucks at $5065.96 delivery cost $91424146775.48, or $2214.29 a square foot over the 41288287."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "78476506",
+    "8585.03",
+    "746294",
+    "2646.72",
+    "496949"
+   ],
+   "expect": "The 78476506 tons at $8585.03 and the 746294 trucks at $2646.72 delivery cost $675698389560.86, or $1359693.63 a square foot over the 496949."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "88364689",
+    "3958.05",
+    "752352",
+    "166.31",
+    "87598624"
+   ],
+   "expect": "The 88364689 tons at $3958.05 and the 752352 trucks at $166.31 delivery cost $349876980957.57, or $3994.09 a square foot over the 87598624."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "69134177",
+    "9908.67",
+    "925501",
+    "9645.75",
+    "8922130"
+   ],
+   "expect": "The 69134177 tons at $9908.67 and the 925501 trucks at $9645.75 delivery cost $693954896885.34, or $77779.06 a square foot over the 8922130."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "19063059",
+    "3232.9",
+    "413230",
+    "9155.09",
+    "5065066"
+   ],
+   "expect": "The 19063059 tons at $3232.9 and the 413230 trucks at $9155.09 delivery cost $65412121281.80, or $12914.37 a square foot over the 5065066."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "6233707",
+    "9412.55",
+    "557675",
+    "4730.69",
+    "80622291"
+   ],
+   "expect": "The 6233707 tons at $9412.55 and the 557675 trucks at $4730.69 delivery cost $61313266368.60, or $760.50 a square foot over the 80622291."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "98693163",
+    "1609.88",
+    "375070",
+    "776.7",
+    "12448820"
+   ],
+   "expect": "The 98693163 tons at $1609.88 and the 375070 trucks at $776.7 delivery cost $159175466119.44, or $12786.39 a square foot over the 12448820."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "23013891",
+    "338.71",
+    "135036",
+    "9673.4",
+    "69171786"
+   ],
+   "expect": "The 23013891 tons at $338.71 and the 135036 trucks at $9673.4 delivery cost $9101292263.01, or $131.58 a square foot over the 69171786."
+  }
+ ],
+ "errors": [
+  [
+   "volume",
+   [
+    "0",
+    "10",
+    "12"
+   ]
+  ],
+  [
+   "volume",
+   [
+    "100",
+    "0",
+    "12"
+   ]
+  ],
+  [
+   "volume",
+   [
+    "100",
+    "10",
+    "0"
+   ]
+  ],
+  [
+   "tons",
+   [
+    "0",
+    "1.4"
+   ]
+  ],
+  [
+   "tons",
+   [
+    "37",
+    "0"
+   ]
+  ],
+  [
+   "tons",
+   [
+    "37",
+    "1.401"
+   ]
+  ],
+  [
+   "trucks",
+   [
+    "0",
+    "20"
+   ]
+  ],
+  [
+   "trucks",
+   [
+    "52",
+    "0"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "42",
+    "3",
+    "150",
+    "1000"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "52",
+    "0",
+    "3",
+    "150",
+    "1000"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "52",
+    "42",
+    "0",
+    "150",
+    "1000"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "52",
+    "42",
+    "3",
+    "0",
+    "1000"
+   ]
+  ]
+ ]
+}
